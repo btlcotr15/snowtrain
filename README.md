@@ -2,6 +2,16 @@
 
 ## Setup
 
+If you want to set a proxy, do that in a variable:
+```
+SN_PROXY
+```
+
+For example:
+```
+export SN_PROXY="-x http://proxy.yourcomp.com:8080"
+```
+
 Set the following environment variables:
 ```
 SN_URL
@@ -16,15 +26,8 @@ export SN_PASS=youpass
 export SN_URL=https://dev49775.service-now.com
 ```
 
-If you want to set a proxy, do that in a variable:
-```
-SN_PROXY
-```
+The value of the USER/PASS variables is what you setup below.
 
-For example:
-```
-export SN_PROXY="-x http://proxy.yourcomp.com:8080"
-```
 
 ### Setup for API Access
 
@@ -34,7 +37,7 @@ Search for 'users', then under 'user administration', select 'users'.
 
 Click 'new'.
 
-Enter values for 'name', 'id', and 'password.
+Enter values for 'name', 'ID', and 'password'. (The ID and password are what you use above in environment variables.)
 
 Click 'submit'.
 
@@ -45,6 +48,4 @@ Under 'roles', click 'edit'.
 Search for 'itil' and 'snc_platform_rest_api_access' and add to the list.
 
 Save.
-
-
 
