@@ -49,3 +49,8 @@ Search for 'itil' and 'snc_platform_rest_api_access' and add to the list.
 
 Save.
 
+## Finding All Tables
+
+Type 'sys_db_object.list' in the navigator.
+
+
