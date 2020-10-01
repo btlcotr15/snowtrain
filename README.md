@@ -53,4 +53,8 @@ Save.
 
 Type 'sys_db_object.list' in the navigator.
 
+## Roles
+
+It looks like you need more than 'itil' permission to add entries to location table. Giving 'admin' permission seems to resolve it.
+
 
